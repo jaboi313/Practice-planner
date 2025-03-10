@@ -1,4 +1,4 @@
-import wx
+import other.wx as wx
 
 app = wx.App()
 frame = wx.Frame(None)

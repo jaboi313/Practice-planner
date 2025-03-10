@@ -1,7 +1,7 @@
-from time import time
+from datetime import time
 
 class Availability:
-    def __init__(self, Monday:bool=True, Tuesday:bool=True, Wednesday:bool=True, Thursday:bool=True, Friday:bool=True, MondayStartTime:time=True, TuesdayStartTime:time=True, WednesdayStartTime:time=True, ThursdayStartTime:time=True, FridayStartTime:time=True):
+    def __init__(self, Monday:bool=True, Tuesday:bool=True, Wednesday:bool=True, Thursday:bool=True, Friday:bool=True, MondayStartTime:time=time(18,0), TuesdayStartTime:time=time(18,0), WednesdayStartTime:time=time(18,0), ThursdayStartTime:time=time(18,0), FridayStartTime:time=time(18,0)):
         self.__Monday = Monday
         self.__Tuesday = Tuesday
         self.__Wednesday = Wednesday
