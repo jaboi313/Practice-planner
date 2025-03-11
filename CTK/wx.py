@@ -1,4 +1,4 @@
-import other.wx as wx
+import CTK.wx as wx
 
 app = wx.App()
 frame = wx.Frame(None)
