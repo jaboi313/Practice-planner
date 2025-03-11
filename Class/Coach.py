@@ -1,6 +1,6 @@
 from Class.Availability import Availability
-from Class.ID import ID
+from Class.CoachID import CoachID
 
 class Coach:
     def __init__(self, Name:str, CoachTeam:str, PlayTeam:str=None, Availability:Availability=Availability()):
-        self.__ID = ID()
+        self.__ID = CoachID()

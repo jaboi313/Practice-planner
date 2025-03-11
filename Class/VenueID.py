@@ -1,4 +1,4 @@
 from Class.ID import ID
 
-class CoachID(ID):
+class VenueID(ID):
     super.__init__(self=super)
