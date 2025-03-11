@@ -1,5 +1,5 @@
 from Class.Coach import Coach
-from Class.TeamID import TeamID
+from Class.ID import TeamID
 
 class Team:
     def __init__(self, TrainingAmount:int=2, AmountOfCoaches:int=1, *Coaches:Coach):

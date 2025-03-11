@@ -10,3 +10,15 @@ class ID:
 
     def SetCounter(self, Value:int):
         self._Counter = Value
+
+class CoachID(ID):
+    super.__init__()
+
+class CourtID(ID):
+    super.__init__()
+
+class TeamID(ID):
+    super.__init__()
+
+class VenueID(ID):
+    super.__init__()
